@@ -1,0 +1,1734 @@
+/* ************** Fuentes ************** */
+@font-face {
+  font-family: "Heavitas";
+  src: url("/Fuentes/Heavitas.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("Fuentes/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBoldItalic";
+  src: url("/Fuentes/Poppins-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url("/Fuentes/Poppins-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-MediumItalic";
+  src: url("/Fuentes/Poppins-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("/Fuentes/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("/Fuentes/Poppins-Regular.ttf");
+}
+
+/* ************** Fin Fuentes ************** */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+/* aquí comienza footer */
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-info1,
+.footer-info2,
+.footer-info3 {
+  width: 100%;
+}
+
+.footer-info1 {
+  width: 50%;
+  background-color: #83A637;
+}
+
+.footer-info2 {
+  width: 15%;
+}
+
+.footer-info3 {
+  width: 35%;
+}
+
+.barracolor {
+  display: flex;
+  height: 10px;
+  width: auto;
+}
+
+.color1 {
+  color: #D95525;
+  flex-grow: 1;
+  background-color: #D95525;
+}
+
+.color2 {
+  flex-grow: 1;
+  background-color: #D97D0D;
+}
+
+.color3 {
+  flex-grow: 1;
+  background-color: #83A637;
+}
+
+.color4 {
+  flex-grow: 1;
+  background-color: #03A688;
+}
+
+.logosred a {
+  margin-top: 15px;
+  transition: all .3s ease;
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+}
+
+.logosred a:hover {
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+#datosfooter {
+  list-style: none;
+  font-family: "Poppins-Regular";
+}
+
+.renca {
+  font-family: "Poppins-Italic";
+  margin-left: 10px;
+  font-size: 130%;
+}
+
+.orgullosa {
+  color: #0192d0;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.crece {
+  color: #d75e24;
+  margin-bottom: 0px;
+}
+
+.participa {
+  color: #769e33;
+  margin-bottom: 0px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 32px;
+}
+
+.logos-container img {
+  margin-top: 60px;
+  height: 100px;
+  width: 220px;
+}
+
+@media (min-width: 1000px) and (max-width: 1370px) {
+  .footer-info1 {
+    width: 40%;
+  }
+
+  .footer-info2 {
+    width: 20%;
+  }
+
+  .footer-info3 {
+    width: 40%;
+  }
+
+  .logos-container img {
+    height: 80px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 999px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-info1,
+  .footer-info2,
+  .footer-info3 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logos-container img {
+    height: 80px;
+    width: 150px;
+  }
+
+  .logos-container {
+    display: inline-block;
+    margin-left: 0;
+  }
+}
+
+/* aquí finaliza footer */
+#nombres {
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#inicio {
+  background-color: #83A637;
+
+
+}
+
+#registro {
+  background-color: #D97D0D;
+}
+
+.navegacion {
+  margin: 0px;
+  padding: 0px;
+  background-color: #83a63765;
+  display: flex;
+}
+
+ul.nav-list {
+  display: flex;
+  justify-content: center;
+
+}
+
+.elemt-list {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.carousel {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div#buscador-pr.conteiner-fluid {
+  margin: 100px;
+  padding: 40px;
+
+}
+
+#buscar-ofertas {
+  margin: 50px;
+}
+
+/* *****************************Navbar***************************** */
+#hire:hover {
+  transform: scale(1.04);
+}
+
+.ml-4 {
+  /*hashtags*/
+  margin-left: 5%;
+  font-size: 100%;
+  font-family: "Poppins-Italic";
+  color: white;
+  margin-right: 5%;
+}
+
+.buttonInicio {
+  font-family: "Poppins-Regular";
+}
+
+#botonInicio {
+  /* margin-left: 0px; */
+  margin-top: 10px;
+  /* align-items: center; */
+}
+
+.btn-custom {
+  /*sombra para botones*/
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.792), 0 0 0 1px rgba(253, 252, 252, 0.089) inset;
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+  /*efecto movimiento en botones*/
+  transform: translateY(-4px);
+}
+
+.nav-link {
+  color: #83A637;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: larger;
+  font-family: "Poppins-Regular";
+}
+
+.custom-toggler {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+@media (min-width: 280px) and (max-width: 766px) {
+  #greenContainer {
+    justify-content: center;
+  }
+
+  #botonesnav {
+    width: 100%;
+    text-align: center;
+  }
+
+  #hashtagDelInicio {
+    text-align: center;
+  }
+
+  #Nav2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+
+  #botonesnav {
+    width: 55%;
+    align-items: flex-end;
+    text-align: right;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .ml-4 {
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  #Nav2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1000px) {
+  #hire {
+    margin-left: 50%;
+  }
+
+  .ml-4 {
+    margin-left: 0px;
+    margin-right: 15%;
+  }
+
+  #botonesnav {
+    width: auto;
+    margin-right: 10%;
+    margin-top: 0;
+    text-align: right;
+  }
+
+  #Nav2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1930px) {
+  #hire {
+    margin-left: 50%;
+  }
+
+  .ml-4 {
+    margin-left: 10%;
+  }
+
+  #botonesnav {
+    width: 100%;
+    margin-right: 10%;
+  }
+}
+
+/******************** fin css navbar ********************/
+#card-empleo {
+  margin: 40px;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+#img-empresa {
+  width: 400px;
+  height: 250px;
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+  #img-empresa {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+#boton-postula {
+  background-color: #03A688;
+
+}
+
+#boton-postula:hover {
+  background-color: #03a688a1;
+}
+
+.h2-empleos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03A688;
+}
+
+.h3-Partners {
+  font-family: "Poppins-Bold";
+  src: url("Fuentes/Poppins-Bold.ttf");
+
+}
+
+.container-color {
+  display: flex;
+  height: 1px;
+  width: 100%;
+
+}
+
+.color-linea {
+  color: #535353;
+  flex-grow: 1;
+  background-color: #818181;
+}
+
+#boton-info {
+  background-color: #D95525;
+
+}
+
+#boton-info:hover {
+  background-color: #d95525a6;
+}
+
+.contenido-empleos {
+  margin: 40px;
+
+}
+
+.container-fluids img {
+
+  width: 100%;
+}
+
+.row {
+  margin: 0%;
+  padding: 0%;
+}
+
+div.col-lg-8.bg-light {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+#ContenedorOlvCont {
+
+  width: 100%;
+  height: 50%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+}
+
+/* Form de Inicio */
+#login-user {
+  width: 800px;
+  margin: 50px;
+}
+
+.Olvide {
+  display: flex;
+  justify-content: center;
+
+}
+
+.Olvide-con {
+  color: #0192d0;
+  margin: 2%;
+  padding: 2%;
+}
+
+/* FORM RECUPERAR CONTRASEÑA */
+
+
+
+/* Comienza estilos de form de Registro */
+
+
+#boton-regist {
+
+  margin-top: 10%;
+  background-color: #D95525;
+  border-color: #D95525;
+}
+
+.google-icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  margin-top: 3%;
+}
+
+.img-google {
+  width: 60px;
+  height: 60px;
+}
+
+
+
+
+
+/*AQUI COMIENZA DISEÑO DE EDITAR CV */
+.cvContainer {
+  /*estp es main*/
+  width: 70%;
+  height: 100%;
+  margin-top: 40px;
+  padding: 30%;
+}
+
+.cvContent {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.cursosUsuario,
+.cTecnics {
+  list-style: none;
+  padding: 0%;
+}
+
+.colName {
+  padding: 3%;
+  text-align: center;
+
+}
+
+.iconCv {
+  color: white;
+  margin: 0;
+  padding-top: 0%;
+}
+
+
+.itemsCv {
+ 
+  margin-top: 16px;
+  
+  font-family: 'Poppins-Bold';
+  font-size: 26px;
+}
+
+
+.containerItems {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.nameUsuario {
+  margin-bottom: 20px;
+}
+
+.contactData {
+  text-align: left;
+}
+
+.contInfo {
+  margin-top: 10px;
+  font-family: "Poppins-Regular";
+  text-align: center;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .itemsCv {
+    margin-left: 11px;
+    font-size: 15px;
+  }
+
+  .iconCv {
+    font-size: 15px;
+  }
+
+  .cvContainer {
+    width: 95%;
+  }
+
+  .firstColCv {
+    width: 95%;
+  }
+
+  .secondColCv {
+    width: 95%;
+    padding-top: 20px;
+    padding: 0%;
+  }
+
+  .nameCv {
+    font-size: 18px;
+  }
+
+  .contInfo {
+    font-size: 12px;
+    align-items: center;
+  }
+
+  .colName {
+    padding-top: 30px;
+    text-align: left;
+  }
+
+  .contactData {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 766px) {
+  .itemsCv {
+    margin-left: 11px;
+    font-size: 20px;
+  }
+
+  .iconCv {
+    font-size: 15px;
+  }
+
+  .cvContainer {
+    width: 85%;
+  }
+
+  .firstColCv {
+    width: 95%;
+  }
+
+  .secondColCv {
+    width: 95%;
+    padding-top: 20px;
+    padding: 0%;
+  }
+
+  .nameCv {
+    font-size: 18px;
+  }
+
+  .contInfo {
+    font-size: 12px;
+    align-items: center;
+  }
+
+  .colName {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+  .cvContainer {
+    width: 95%;
+  }
+
+  .itemsCv {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+  .cvContainer {
+    width: 85%;
+  }
+
+  .itemsCv {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1199px) and (max-width: 1900px) {
+  .itemsCv {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/* ACA TERMINA DISEÑO DE EDITAR CV */
+
+/* Aqui comienza estilo de letra de registro(registro.html) */
+#responsive>#img-reg {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+#responsive {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit,
+    );
+}
+
+#Oferta-laboral {
+  display: flex;
+  justify-content: left;
+
+}
+
+.text-oferta {
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+}
+
+#img-fluid {
+  width: 250px;
+  height: 150px;
+
+}
+
+#boton-postular {
+  width: auto;
+  height: auto;
+}
+
+#boton-guardar {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#Oferta-laboral {
+  padding: 6%;
+  margin: 6%;
+  display: flex;
+  justify-content: left;
+
+}
+
+/*Responsive formulario*/
+@media (min-width: 280px) and (max-width: 999px) {
+
+  #Datos-personales,
+  #Editarperfil,
+  #Experiencia,
+  #Educacion,
+  #Editperfilempresa {
+    width: 90%;
+  }
+
+  #Editarperfil .form-Perfil,
+  #Experiencia .form-Experiencia,
+  #Educacion .form-Educacion {
+    width: 95% !important;
+  }
+
+  .form-Datospersonales .row,
+  .form-DatosEmpresa .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-Datospersonales .col,
+  .form-DatosEmpresa .col {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/*Responsive formulario fin*/
+
+/*Perfil usuario*/
+
+.row-perfil {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.col-perfil2 {
+  width: 50%;
+}
+
+.col-perfil1,
+.col-perfil3 {
+  width: 25%;
+}
+
+.mi-perfil {
+  margin: 40px;
+  font-family: 'Heavitas';
+}
+
+.perfilusuario {
+  margin: 40px;
+  padding: 0%;
+  justify-content: center;
+}
+
+#user-perfil {
+  width: 300px;
+}
+
+.Nombre-perfil {
+  margin-top: 41px;
+}
+
+.Elementos-perfil {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Elementos-perfil li {
+  margin-bottom: 10px;
+}
+
+.actualizar-datos {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.actualizar-datos a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#pen-edit {
+  width: 15px;
+}
+
+.elementos-adjuntos {
+  font-family: 'Poppins-Regular';
+}
+
+/* Cambios de css por Carlos, en el div de colaboradores y parte del carrusell */
+#Img-Empleos {
+  display: flex;
+  padding: 4%;
+  margin: 4%;
+
+}
+
+/* Por definir el height para que sea responsive las img */
+
+.certificadoslist {
+  list-style-type: none;
+  color: inherit;
+  text-decoration: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+.certificadoslist li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.colcv {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.colcv p {
+  font-weight: bold;
+  margin-right: 5px;
+
+}
+
+.colcv a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.colcv img {
+  margin-right: 10px;
+}
+
+#mostrar-perfil {
+  width: 16px;
+}
+
+@media (min-width: 460px) and (max-width: 1130px) {
+  .certificadoslist {
+    text-align: start;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 1131px) {
+  .perfilusuario {
+    text-align: center;
+  }
+
+  .Elementos-perfil {
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .actualizar-datos {
+    text-align: center;
+  }
+
+  .col-perfil1,
+  .col-perfil2,
+  .col-perfil3 {
+    width: 100%;
+  }
+
+  #user-perfil {
+    height: 200px;
+    width: 200px;
+  }
+
+  .Nombre-perfil {
+    margin-top: 0px;
+  }
+
+}
+
+/*Perfil usuario fin*/
+/* Cambios de css por Carlos, en el div de colaboradores y parte del carrusell */
+#Img-Empleos {
+  display: flex;
+  padding: 4%;
+  margin: 4%;
+
+}
+
+/* Por definir el height para que sea responsive las img */
+
+
+
+
+/* Cambios de css por Carlos, en el div de colaboradores y parte del carrusell */
+#Img-Empleos {
+  display: flex;
+  padding: 4%;
+  margin: 4%;
+
+}
+
+/* Por definir el height para que sea responsive las img */
+
+
+
+
+/* paneladmin*/
+.perfiladmin {
+  margin: 40px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.admin-row {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.admin-col1 {
+  width: 40%;
+}
+
+/* .admin-col2,
+.admin-col3 { */
+
+.admin-col2,
+.admin-col3 {
+  width: 30%;
+}
+
+/* #btn-empresas,
+#btn-perfil,
+#btn-usuario { */
+
+#btn-empresas,
+#btn-perfil,
+#btn-usuario {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Heavitas';
+  padding: 35px 80px;
+  background-color: #03A688;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-color: #03A688;
+  border-color: #03A688;
+}
+
+/* #btn-empresas:hover,
+#btn-perfil:hover { */
+#btn-empresas:hover,
+#btn-perfil:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(0, 84, 107, 0.8);
+  transition: all 0.2s ease;
+}
+
+
+#btn-usuario:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(4, 157, 217, 0.8);
+  transition: all 0.2s ease;
+}
+
+#btn-solicitudes {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #D97D0D;
+  font-family: 'Poppins-Regular';
+  padding: 25px 50px;
+  background-color: #D97D0D;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+/* #btn-activos:hover,
+#btn-solicitudes:hover { */
+
+#btn-activos:hover,
+#btn-solicitudes:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(217, 125, 13, 0.8);
+  transition: all 0.2s ease;
+}
+
+#btn-ofertas {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #83A637;
+  font-family: 'Poppins-Regular';
+  padding: 25px 50px;
+  background-color: #83A637;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+
+#btn-newcv {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #83A637;
+  font-family: 'Poppins-Regular';
+  padding: 25px 71px;
+  background-color: #83A637;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+
+#btn-inactivos {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #83A637;
+  font-family: 'Poppins-Regular';
+  padding: 25px 77px;
+  background-color: #83A637;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+/* #btn-inactivos:hover,
+#btn-newcv:hover,
+#btn-ofertas:hover { */
+
+#btn-inactivos:hover,
+#btn-newcv:hover,
+#btn-ofertas:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(131, 166, 55, 0.8);
+  transition: all 0.2s ease;
+}
+
+
+#btn-activos {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Poppins-Regular';
+  border-color: #D97D0D;
+  padding: 25px 68px;
+  background-color: #D97D0D;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+
+@media (min-width: 280px) and (max-width: 1100px) {
+  .admin-row {
+    flex-direction: column;
+  }
+
+
+  .admin-col1,
+
+  .admin-col2,
+
+  .admin-col3 {
+    width: 100%;
+  }
+
+
+  #btn-empresas,
+
+  #btn-perfil,
+
+  #btn-usuario {
+    text-align: center;
+    padding: 35px 0px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-solicitudes {
+    padding: 10px 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-ofertas {
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-newcv {
+    padding: 10px 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-inactivos {
+    padding: 10px 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-activos {
+    padding: 10px 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Finde lo danny <3 que es panel Admin */
+
+
+/* De quién es es este dropdown */
+.dropdown-menu {
+  position: fixed;
+
+}
+
+/* Estilos para evitar la distorsión del contenido cuando el menú está desplegado */
+.navbar-collapse {
+  position: relative;
+}
+
+/* Cambios en las cards  */
+
+.h2-conecta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+.contenido-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 1%;
+}
+
+.Paso {
+  margin-top: 0%;
+ 
+  padding: 1%;
+}
+
+.step {
+  flex-grow: 1;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+  max-width: 200px;
+  height: 200px;
+}
+
+.step.contenido-card {
+  display: flex;
+  position: absolute;
+}
+
+.step img {
+  width: 95%;
+  /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 95%;
+  /* Ajusta la altura de la imagen al 100% del contenedor */
+  object-fit: cover;
+  /* Escala y recorta la imagen para que se ajuste al contenedor */
+  border-top-left-radius: 8px;
+  /* Redondea solo las esquinas superiores izquierdas */
+  border-top-right-radius: 8px;
+  /* Espacio inferior entre la imagen y el contenido */
+}
+
+.step h3 {
+  font-size: 1.2rem;
+  /* Tamaño de fuente para los títulos */
+  margin-bottom: 10px;
+  /* Espacio inferior entre el título y el párrafo */
+  display: flex;
+  justify-content: center;
+}
+
+.step p {
+  font-size: 1rem;
+  /* Tamaño de fuente para los párrafos */
+}
+
+.h3-card {
+  font-family: "Poppins-MediumItalic";
+  src: url("/Fuentes/Poppins-MediumItalic.ttf");
+}
+
+/* Fin de los cambios del carlos */
+
+/* Comienza estilos del Testimonios */
+/* Contenido primer testimonio */
+.contenedor-testis {
+  margin-bottom: 4%;
+  padding-bottom: 2%;
+}
+
+.img-testimonios1 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url('./Img/hombre-mayor.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* Cambiar la altura inicial a 0 */
+  background-color: rgba(1, 146, 208, 0.5);
+  /* Cambiar el color de fondo con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se extienda más allá del tamaño del contenedor */
+  transition: height 0.3s;
+  /* Añadir una transición para la altura */
+}
+
+.img-testimonios1:hover .over-1 {
+  height: 100%;
+  opacity: 1;
+}
+
+.text-over {
+  text-align: center;
+  /* Alinear el texto al centro */
+  color: white;
+}
+
+.h3-over {
+  font-family: "Poppins-Bold";
+  src: url("Fuentes/Poppins-Bold.ttf");
+  font-size: 1.5rem;
+}
+
+.p-1 {
+  font-size: 1rem;
+}
+
+/* Comienza segundo testimonio */
+.img-testimonios2 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url('./Img/trajador-digital.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* Cambiar la altura inicial a 0 */
+  background-color: rgba(1, 146, 208, 0.5);
+  /* Cambiar el color de fondo con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se extienda más allá del tamaño del contenedor */
+  transition: height 0.3s;
+  /* Añadir una transición para la altura */
+}
+
+.img-testimonios2:hover .over-2 {
+  height: 100%;
+  opacity: 1;
+}
+
+/* Comienza testimonio de dayana */
+.img-testimonios3 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url('./Img/retrato-jardinera.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* Cambiar la altura inicial a 0 */
+  background-color: rgba(1, 146, 208, 0.5);
+  /* Cambiar el color de fondo con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se extienda más allá del tamaño del contenedor */
+  transition: height 0.3s;
+  /* Añadir una transición para la altura */
+}
+
+.img-testimonios3:hover .over-3 {
+  height: 100%;
+  opacity: 1;
+}
+
+/* Comienza estilos del Testimonios */
+/* Contenido primer testimonio */
+
+.img-testimonios1 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url('./Img/hombre-mayor.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* Cambiar la altura inicial a 0 */
+  background-color: rgba(1, 146, 208, 0.5);
+  /* Cambiar el color de fondo con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se extienda más allá del tamaño del contenedor */
+  transition: height 0.3s;
+  /* Añadir una transición para la altura */
+}
+
+.img-testimonios1:hover .over-1 {
+  height: 100%;
+  opacity: 1;
+}
+
+.text-over {
+  text-align: center;
+  /* Alinear el texto al centro */
+  color: white;
+}
+
+.h3-over {
+  font-family: "Poppins-Bold";
+  src: url("Fuentes/Poppins-Bold.ttf");
+  font-size: 1.5rem;
+}
+
+.p-1 {
+  font-size: 1rem;
+}
+
+/* Comienza segundo testimonio */
+.img-testimonios2 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url('./Img/trajador-digital.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* Cambiar la altura inicial a 0 */
+  background-color: rgba(1, 146, 208, 0.5);
+  /* Cambiar el color de fondo con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se extienda más allá del tamaño del contenedor */
+  transition: height 0.3s;
+  /* Añadir una transición para la altura */
+}
+
+.img-testimonios2:hover .over-2 {
+  height: 100%;
+  opacity: 1;
+}
+
+/* Comienza testimonio de dayana */
+.img-testimonios3 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url('./Img/retrato-jardinera.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* Cambiar la altura inicial a 0 */
+  background-color: rgba(1, 146, 208, 0.5);
+  /* Cambiar el color de fondo con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se extienda más allá del tamaño del contenedor */
+  transition: height 0.3s;
+  /* Añadir una transición para la altura */
+}
+
+.img-testimonios3:hover .over-3 {
+  height: 100%;
+  opacity: 1;
+}
+
+
+/* DIEGO Caro*/
+
+header {
+  overflow: hidden;
+}
+
+.dropdown-menu {
+  max-height: 200px;
+  /* Ajusta el valor según sea necesario */
+  overflow-y: auto;
+  max-height: 200px;
+  /* Ajusta el valor según sea necesario */
+  overflow-y: auto;
+}
+
+
+.userButton {
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.792), 0 0 0 1px rgba(253, 252, 252, 0.089) inset;
+  color: white
+}
+
+
+.userName {
+  color: white
+}
+
+
+@media(min-width: 280px) and (max-width: 460px) {
+  .userButton {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+
+  .userName {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+
+@media(min-width: 767px) and (max-width:812px) {
+  .userButton {
+    text-align: center;
+  }
+
+  .userN {
+    width: 83%;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .userName {
+    font-size: 13px;
+    /* margin-top: 10px; */
+  }
+
+  .userButton {
+    text-align: center;
+  }
+
+  .userN {
+    width: 83%;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .userName {
+    font-size: 12px;
+    /* margin-top: 10px; */
+  }
+
+}
+
+/* responsive filtro */
+.filtros {
+  margin: 30px;
+
+}
+
+@media (min-width: 280px) and (max-width: 800px) {
+  #filtros-row {
+    flex-direction: column;
+  }
+
+  #filtros-col {
+    width: 100%;
+  }
+}
+
+/*Solicitudes CV*/
+.solicitudescv {
+  margin: 40px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.solici-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.solici-col1 {
+  width: 30%;
+}
+
+.solici-col2 {
+  width: 40%;
+  font-weight: bold;
+}
+
+.solici-col2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.solici-col3 {
+  width: 30%
+}
+
+.solici-col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Curriculum {
+  font-family: 'Heavitas';
+  margin-top: 43px;
+}
+
+#btn-Aprobar {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Poppins-Regular';
+  padding: 15px 40px;
+  background-color: #03A688;
+  margin-bottom: 20px;
+  border-color: #03A688;
+}
+
+#btn-Denegar {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Poppins-Regular';
+  padding: 15px 40px;
+  background-color: #D95525;
+  border-color: #D95525;
+}
+
+#btn-Aprobar:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(0, 84, 107, 0.8);
+  transition: all 0.2s ease;
+}
+
+#btn-Denegar:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(217, 85, 37, 0.8);
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 280px) and (max-width: 700px) {
+  .solici-row {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .Curriculum {
+    font-family: 'Heavitas';
+    margin-top: 10px;
+  }
+
+  .solici-col1,
+  .solici-col2,
+  .solici-col3 {
+    width: 100%;
+  }
+
+  #btn-Aprobar {
+    padding: 6px 60px;
+  }
+
+  #btn-Denegar {
+    padding: 6px 60px;
+  }
+}
+
+/*Solicitudes CV fin*/
+/* */

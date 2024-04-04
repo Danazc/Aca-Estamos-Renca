@@ -1,0 +1,183 @@
+/* paneladmin*/
+.perfiladmin {
+  margin: 80px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.admin-row {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+
+.admin-col1 {
+  width: 40%;
+}
+
+.admin-col2,
+.admin-col3 {
+  width: 30%;
+}
+
+#btn-empresas,
+#btn-perfil,
+#btn-usuario {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Heavitas';
+  padding: 35px 80px;
+  background-color: #03A688;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-color: #03A688;
+  border-color: #03A688;
+}
+
+#btn-empresas:hover,
+#btn-perfil:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(0, 84, 107, 0.8);
+  transition: all 0.2s ease;
+}
+
+
+#btn-usuario:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(4, 157, 217, 0.8);
+  transition: all 0.2s ease;
+}
+
+#btn-solicitudes {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #D97D0D;
+  font-family: 'Poppins-Regular';
+  padding: 25px 50px;
+  background-color: #D97D0D;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+#btn-activos:hover,
+#btn-solicitudes:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(217, 125, 13, 0.8);
+  transition: all 0.2s ease;
+}
+
+#btn-ofertas {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #83A637;
+  font-family: 'Poppins-Regular';
+  padding: 25px 50px;
+  background-color: #83A637;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+
+#btn-newcv {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #83A637;
+  font-family: 'Poppins-Regular';
+  padding: 25px 71px;
+  background-color: #83A637;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+
+#btn-inactivos {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: #83A637;
+  font-family: 'Poppins-Regular';
+  padding: 25px 77px;
+  background-color: #83A637;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+#btn-inactivos:hover,
+#btn-newcv:hover,
+#btn-ofertas:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(131, 166, 55, 0.8);
+  transition: all 0.2s ease;
+}
+
+
+#btn-activos {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Poppins-Regular';
+  border-color: #D97D0D;
+  padding: 25px 68px;
+  background-color: #D97D0D;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+
+@media (min-width: 280px) and (max-width: 1100px) {
+  .admin-row {
+    flex-direction: column;
+  }
+
+
+  .admin-col1,
+
+  .admin-col2,
+
+  .admin-col3 {
+    width: 100%;
+  }
+
+
+  #btn-empresas,
+
+  #btn-perfil,
+
+  #btn-usuario {
+    text-align: center;
+    padding: 35px 0px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-solicitudes {
+    padding: 10px 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-ofertas {
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-newcv {
+    padding: 10px 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-inactivos {
+    padding: 10px 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #btn-activos {
+    padding: 10px 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

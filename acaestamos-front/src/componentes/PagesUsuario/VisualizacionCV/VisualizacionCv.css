@@ -1,0 +1,169 @@
+.cvContainer {
+    /*estp es main*/
+    width: 70%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 30%;
+    margin-bottom: 40px;
+    
+}
+
+.cvContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.cursosUsuario,
+.cTecnics {
+    list-style: none;
+    padding: 0%;
+}
+
+.colName {
+    padding: 3%;
+    text-align: center;
+}
+
+.iconCv {
+    color: white;
+    margin: 0;
+    padding-top: 0%;
+}
+
+.itemsCv {
+    margin-top: 16px;
+    font-family: "Poppins-Bold";
+    font-size: 26px;
+}
+
+
+.containerItems {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.nameUsuario {
+    margin-bottom: 20px;
+}
+
+.contactData {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contInfo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Poppins-Regular";
+    text-align: center;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+    .itemsCv {
+        margin-left: 11px !important;
+        font-size: 15px !important;
+    }
+
+    .iconCv {
+        font-size: 15px !important;
+    }
+
+    .cvContainer {
+        width: 95%;
+    }
+
+    .firstColCv {
+        width: 95%;
+    }
+
+    .secondColCv {
+        width: 95% ;
+        padding-top: 20px;
+        padding: 0%;
+    }
+
+    .nameCv {
+        font-size: 18px;
+    }
+
+    .contInfo {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .colName {
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    .contactData {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 766px) {
+    .itemsCv {
+        margin-left: 11px;
+        font-size: 20px;
+    }
+
+    .iconCv {
+        font-size: 15px !important;
+    }
+
+    .cvContainer {
+        width: 85%;
+    }
+
+    .firstColCv {
+        width: 95%;
+    }
+
+    .secondColCv {
+        width: 95%;
+        padding-top: 20px;
+        padding: 0%;
+    }
+
+    .nameCv {
+        font-size: 18px;
+    }
+
+    .contInfo {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .colName {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+    .cvContainer {
+        width: 95%;
+    }
+
+    .itemsCv {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+    .cvContainer {
+        width: 85%;
+    }
+
+    .itemsCv {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1199px) and (max-width: 1900px) {
+    .itemsCv {
+        font-size: 20px;
+    }
+}

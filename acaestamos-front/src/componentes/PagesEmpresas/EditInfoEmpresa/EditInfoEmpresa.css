@@ -1,0 +1,163 @@
+.ContainerEdit {
+    /*esto es main*/
+    width: 70%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 30%;
+}
+
+.ContentEdit {
+    display: flex;
+    flex-direction: row;
+    /* padding: 300px; */
+}
+
+.colEdit {
+    padding: 3%;
+    text-align: center;
+}
+
+.iconEmpresa {
+    color: black;
+    margin: 0;
+    padding-top: 0%;
+}
+
+.itemsEdit {
+    margin-top: 16px;
+    font-family: 'Poppins-Bold';
+    font-size: 26px;
+}
+
+
+.editItems {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.editName {
+    margin-bottom: 20px;
+}
+
+.contactedit {
+    text-align: left;
+}
+
+.editInfo {
+    margin-top: 10px;
+    font-family: "Poppins-Regular";
+    text-align: center;
+}
+
+.imagen{
+    text-align: center;
+    width: 70%;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+    .itemsEdit {
+        margin-left: 11px;
+        font-size: 15px;
+    }
+
+    .iconEmpresa {
+        font-size: 15px !important;
+    }
+
+    .ContainerEdit {
+        width: 95%;
+    }
+
+    .firstColEdit {
+        width: 95%;
+    }
+
+    .secondColEdit {
+        width: 95%;
+        padding-top: 20px;
+        padding: 0%;
+    }
+
+    .nameEdit {
+        font-size: 18px;
+    }
+
+    .editInfo {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .colEdit {
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    .contactedit {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 766px) {
+    .itemsEdit {
+        margin-left: 11px;
+        font-size: 20px;
+    }
+
+    .iconEmpresa {
+        font-size: 15px !important;
+    }
+
+    .ContainerEdit {
+        width: 85%;
+    }
+
+    .firstColEdit {
+        width: 95%;
+    }
+
+    .secondColEdit {
+        width: 95%;
+        padding-top: 20px;
+        padding: 0%;
+    }
+
+    .nameEdit {
+        font-size: 18px;
+    }
+
+    .editInfo {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .colEdit {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+    .ContainerEdit {
+        width: 95%;
+    }
+
+    .itemsEdit {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+    .ContainerEdit {
+        width: 85%;
+    }
+
+    .itemsEdit {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1900px) {
+    .itemsEdit {
+        font-size: 20px;
+    }
+}

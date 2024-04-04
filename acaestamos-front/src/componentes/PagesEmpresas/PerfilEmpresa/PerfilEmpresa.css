@@ -1,0 +1,141 @@
+.talent{
+  width: 90%;
+  text-align: center;
+  margin: 30px;
+  margin-left: 60px;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 5px 5px 20px;
+  
+ }
+ 
+ /* buscador */
+.buscador{
+  margin: 30px;
+}
+
+/* responsive filtro */
+.filtroAdmin{
+  margin: 30px;
+}
+.filtros {
+  margin: 30px;
+
+}
+
+@media (min-width: 280px) and (max-width: 800px) {
+  .filtros-row {
+    flex-direction: column;
+  }
+
+  .filtros-col {
+    width: 90%;
+    margin-top: 13px;
+  }
+  .adminButton{
+      width: 70%;
+  }
+}
+
+
+/*Perfil Empresa*/
+
+.row-perfile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap
+  }
+  
+  .col-perfile2 {
+    width: 50%;
+  }
+  
+  .col-perfile1, .col-perfile3 {
+    width: 25%;
+  }
+  
+  .mi-perfil {
+    margin: 40px;
+    font-family: 'Heavitas';
+  }
+  
+  .perfilempresa {
+    margin: 40px;
+    padding: 0%;
+    justify-content: center;
+  }
+  
+  #user-perfil {
+    width: 300px;
+  }
+  
+  .Nombre-perfile {
+    margin-top: 41px;
+  }
+  
+  .Elementos-perfile {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Elementos-perfile li {
+    margin-bottom: 10px;
+  }
+  
+  #pen-edit {
+    width: 15px;
+  }
+  
+  .elementos-adjuntos {
+    font-family: 'Poppins-Regular';
+  }
+
+  .colcv {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .colcv p {
+    font-weight: bold;
+    margin-right: 5px;
+  
+  }
+   
+  .colcv img {
+    margin-right: 10px;
+  }
+  
+  #mostrar-perfil {
+    width: 16px;
+  }
+  
+  @media (min-width: 280px) and (max-width: 1131px) {
+    .perfilempresa {
+      text-align: center;
+    }
+  
+    .Elementos-perfile {
+      text-align: start;
+      padding-left: 10px;
+    }
+  
+    .col-perfile1,
+    .col-perfile2,
+    .col-perfile3 {
+      width: 100%;
+    }
+  
+    #user-perfil {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .Nombre-perfile {
+      margin-top: 0px;
+    }
+  
+  }

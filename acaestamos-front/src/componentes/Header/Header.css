@@ -1,0 +1,129 @@
+#hire:hover {
+    transform: scale(1.04);
+  }
+  
+  .ml-4 {
+    /*hashtags*/
+    margin-left: 5%;
+    font-size: 100%;
+    font-family: "Poppins-Italic";
+    color: white;
+    margin-right: 5%;
+  }
+  
+  .buttonInicio {
+    font-family: "Poppins-Regular";
+  }
+  
+  #botonInicio {
+    /* margin-left: 0px; */
+    margin-top: 10px;
+    
+  }
+  
+  .btn-custom {
+    /*sombra para botones*/
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.792), 0 0 0 1px rgba(253, 252, 252, 0.089) inset;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .btn-custom:hover {
+    /*efecto movimiento en botones*/
+    transform: translateY(-4px);
+  }
+  
+  .nav-link {
+    color: #83A637;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: larger;
+    font-family: "Poppins-Regular";
+  }
+  
+  .custom-toggler {
+    margin-left: auto;
+    margin-right: 5%;
+  }
+  
+  @media (min-width: 280px) and (max-width: 766px) {
+    #greenContainer {
+      justify-content: center;
+    }
+  
+    #botonesnav {
+      width: 100%;
+      text-align: center;
+    }
+  
+    #hashtagDelInicio {
+      text-align: center;
+    }
+  
+    #Nav2 {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 767px) and (max-width: 990px) {
+  
+    #botonesnav {
+      width: 55%;
+      align-items: flex-end;
+      text-align: right;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+  
+    .ml-4 {
+      margin-left: 5%;
+      margin-right: auto;
+    }
+  
+    #Nav2 {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 991px) and (max-width: 1000px) {
+    #hire {
+      margin-left: 50%;
+    }
+  
+    .ml-4 {
+      margin-left: 0px;
+      margin-right: 15%;
+    }
+  
+    #botonesnav {
+      width: auto;
+      margin-right: 10%;
+      margin-top: 0;
+      text-align: right;
+    }
+  
+    #Nav2 {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1001px) and (max-width: 1930px) {
+    #hire {
+      margin-left: 50%;
+    }
+  
+    .ml-4 {
+      margin-left: 10%;
+    }
+  
+    #botonesnav {
+      width: 100%;
+      margin-right: 10%;
+    }
+  }
+  
+
+.p-3 {
+
+  width: 100%;
+}

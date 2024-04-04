@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acá Estamos - Editar CV usuario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins?query=pop">
+    <script src="https://kit.fontawesome.com/a23830e2ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container-fluid text-light p-3" style="background-color: #83A637;">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container-fluid" style="background-color: #83A637;" id="greenContainer">
+    
+                            <div>
+                                <a class="navbar-brand " href="/index.html"><img src="/Logos/logo2.0.png" alt="Bootstrap"
+                                        width="100" height="100" id="hire"></a>
+                            </div>
+                            <div class="ml-4" id="hashtagDelInicio">
+                                <p class="mb-0">#RencaOrgullosa</p>
+                                <p class="mb-0">#RencaCrece</p>
+                                <p class="mb-0">#RencaParticipa</p>
+                            </div>
+                            <div class="container-fluid gap-5 d-md-flex justify-content-md-end p-4 secondNav" style="justify-content: flex-end;" id="botonesnav">
+                                <div class="position-relative">
+                                    <button class="btn btn-m me-2 userButton" type="button" style="background-color: #D97D0D">
+                                        <a href="#"><i class="fa-solid fa-bell"></i></a>
+                                    </button>
+                                    <buttom class="btn nav-item dropdown btn-m userButton userN" style="background-color: #049DD9">
+                                        <a class="nav-link dropdown-toggle userName" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Nombre de usuario
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right position-absolute" aria-labelledby="navbarDropdown">
+                                            <!-- Agrega cualquier elemento adicional del menú desplegable según sea necesario -->
+                                            <a class="dropdown-item" href="#">Mi perfil</a>
+                                            <a class="dropdown-item" href="#">Actualizar mi CV</a>
+                                            <a class="dropdown-item" href="#">Cerrar sesión</a>
+                                            <!-- <a class="dropdown-item" href="#">Item 4</a> -->
+                                            
+                                            <!-- ... -->
+                                        </div>
+                                    </buttom>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+    
+                <div class="container-fluid" style="background-color: #f2f7ea;">
+                    <nav class="navbar navbar-expand-lg  ">
+                        <div class="container-fluid " style="background-color: #f2f7ea;">
+                            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                                data-target="#Nav2" aria-controls="Nav2" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="Nav2">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Cursos</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+    </header>
+
+    <!--**************** Inicio cv ****************-->
+
+    <!-- Comienza el buscador -->
+
+    <div class="container-sm" id="buscardor-pr">
+        <form class="d-flex" role="search" id="buscar-ofertas">
+            <input class="form-control me-2" type="search" placeholder="Buscar Ofertas.."
+                aria-label="Buscar Ofertas...">
+            <button class="btn btn-outline-success" type="submit"><img src="../Img/Lupa.png"
+                    alt="Descripción de la imagen" class="img-fluid"></button>
+            <button style="background-color:#049DD9; width: 120px;" class="btn btn-outline-light" type="submit">Más
+                filtros</button>
+        </form>
+    </div>
+    <!-- Termina el buscador -->
+    <!-- Comienzan los filtros -->
+    <div class="container-fluid">
+        <div id="filtros-row" class="row">
+          <div id="filtros-col" class="col-2">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Área Laboral</option>
+                <option value="1">Logística</option>
+                <option value="2">Seguridad</option>
+                <option value="3">Programación</option>
+              </select>
+          </div>
+          <div  id="filtros-col" class="col-2">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Jornada</option>
+                <option value="1">Mañana</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noche</option>
+              </select>
+          </div>
+          <div id="filtros-col" class="col-2">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Modalidad</option>
+                <option value="1">Online</option>
+                <option value="2">Presencial</option>
+                <option value="3">Hibrido</option>
+              </select>
+          </div>
+          <div id="filtros-col" class="col-2">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+          </div>
+          <div id="filtros-col" class="col-4">
+            <label for="customRange2" class="form-label">Años de Experiencia</label>
+<input type="range" class="form-range" style="padding-bottom: 25px;" min="0" max="20" id="customRange2">
+          </div>
+        </div>
+    </div>
+
+    <!-- Terminan los filtros -->
+    <!-- Inicio tabla con la lista de usuarios registrados -->
+    <main class="d-flex ">
+        <div class="container-fluid  mb-5  w-60 p-4 h-50 "
+            >
+            <div class="container-fluid">
+                <div class="row">
+                <h3 class="userList">Todos los usuarios</h3>
+                </div>
+                <div class="container-fluid gap-5 d-md-flex justify-content-md-end p-4" style="justify-content: flex-end;"
+                id="botonesnav">
+                <button class="btn btn-lg me-2" type="button"
+                  style="background-color:#049DD9;">
+                  <a href="#">Nuevos usuarios</a>
+                </button>
+                <button class="btn  btn-lg me-2" type="button"
+                  style="background-color: #D97D0D">
+                  <a href="#">Solicitudes de CV</a>
+                </button>
+              </div>
+            </div>
+               
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido paterno</th>
+                    <th scope="col">Apellido Materno</th>
+                    <th scope="col">Actividad</th>
+                    <th scope="col">Editar</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row" class="userName">Mark</th>
+                    <td class="apellidoPaterno">Loki</td>
+                    <td class="apellidoMaterno">Otto</td>
+                    <td class="botonActividad"><button></button></td>
+                    <td> </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="userName">Mark</th>
+                    <td class="apellidoPaterno">Loki</td>
+                    <td class="apellidoMaterno">Otto</td>
+                    <td class="botonActividad"><button></button></td>
+                    <td> </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="userName">Mark</th>
+                    <td class="apellidoPaterno">Loki</td>
+                    <td class="apellidoMaterno">Otto</td>
+                    <td class="botonActividad"><button></button></td>
+                    <td> </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="userName">Mark</th>
+                    <td class="apellidoPaterno">Loki</td>
+                    <td class="apellidoMaterno">Otto</td>
+                    <td class="botonActividad"><button></button></td>
+                    <td> </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="userName">Mark</th>
+                    <td class="apellidoPaterno">Loki</td>
+                    <td class="apellidoMaterno">Otto</td>
+                    <td class="botonActividad"><button></button></td>
+                    <td> </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="barracolor">
+            <div class="color1"> </div>
+            <div class="color2"> </div>
+            <div class="color3"> </div>
+            <div class="color4"> </div>
+        </div>
+        <div class="container-fluid">
+            <div class="footer-row">
+                <div class="footer-info1">
+                    <ul class="logosred">
+                        <a href="https://www.youtube.com/channel/UCEOLXqeFxbHD4OSsSoUPXNg"> <img
+                                src="../Logos/youtube.png"></a>
+                        <a href="https://www.instagram.com/muni_renca/"> <img
+                                src="../Logos/🦆 icon _instagram fill icon_.png"></a>
+                        <a href="https://web.facebook.com/MuniRenca/?_rdc=1&_rdr"> <img
+                                src="../Logos/🦆 icon _facebook icon_.png"></a>
+                        <a href="https://www.flickr.com/photos/153772620@N02"> <img src="../Logos/🦆 icon _Flickr_.png">
+                        </a>
+                        <a href="https://twitter.com/Muni_Renca"> <img src="../Logos/twitter.png"></a>
+                    </ul>
+                    <ul id="datosfooter">
+                        <li><a>lafabrica@renca.cl</a></li>
+                        <li><a>Horario de atención:</a></li>
+                        <li><a>De lunes a jueves de 9:00 a 13:00 y de 14:00 a 17:00 hrs.</a></li>
+                        <li><a>Viernes de 9:00 a 13:00 y de 14:00 a 16:00 hrs.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info2">
+                    <div class="renca">
+                        <p class="orgullosa">#RencaOrgullosa</p>
+                        <p class="crece">#RencaCrece</p>
+                        <p class="participa">#RencaParticipa</p>
+                    </div>
+                </div>
+                <div class="footer-info3">
+                    <div class="logos-container">
+                        <a href="https://lafabricaderenca.cl"> <img src="../Logos/logolafabrica.png"></a>
+                        <a href="https://renca.cl"> <img src="../Logos/logo-renca.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

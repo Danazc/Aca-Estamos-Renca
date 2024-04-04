@@ -1,0 +1,160 @@
+/* aquí comienza footer */
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .footer-info1,
+  .footer-info2,
+  .footer-info3 {
+    width: 100%;
+  }
+  
+  .footer-info1 {
+    width: 50%;
+    background-color: #83A637;
+  }
+  
+  .footer-info2 {
+    width: 15%;
+  }
+  
+  .footer-info3 {
+    width: 35%;
+  }
+  
+  .barracolor {
+    display: flex;
+    height: 10px;
+    width: auto;
+  }
+  
+  .color1 {
+    color: #D95525;
+    flex-grow: 1;
+    background-color: #D95525;
+  }
+  
+  .color2 {
+    flex-grow: 1;
+    background-color: #D97D0D;
+  }
+  
+  .color3 {
+    flex-grow: 1;
+    background-color: #83A637;
+  }
+  
+  .color4 {
+    flex-grow: 1;
+    background-color: #03A688;
+  }
+  
+  .logosred a {
+    margin-top: 15px;
+    transition: all .3s ease;
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+  }
+  
+  .logosred a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+  }
+  
+  #datosfooter {
+    list-style: none;
+    font-family: "Poppins-Regular";
+  }
+  
+  .renca {
+    font-family: "Poppins-Italic";
+    margin-left: 10px;
+    font-size: 130%;
+  }
+  
+  .orgullosa {
+    color: #0192d0;
+    margin-top: 45px;
+    margin-bottom: 0px;
+  }
+  
+  .crece {
+    color: #d75e24;
+    margin-bottom: 0px;
+  }
+  
+  .participa {
+    color: #769e33;
+    margin-bottom: 0px;
+  }
+  
+  .logos-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 32px;
+  }
+  
+  .logos-container img {
+    margin-top: 60px;
+    height: 100px;
+    width: 220px;
+  }
+  
+  @media (min-width: 1000px) and (max-width: 1370px) {
+    .footer-info1 {
+      width: 40%;
+    }
+  
+    .footer-info2 {
+      width: 20%;
+    }
+  
+    .footer-info3 {
+      width: 40%;
+    }
+  
+    .logos-container img {
+      height: 80px;
+      width: 150px;
+    }
+  }
+  
+  @media (min-width: 280px) and (max-width: 999px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer-info1,
+    .footer-info2,
+    .footer-info3 {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .logos-container img {
+      height: 80px;
+      width: 150px;
+    }
+  
+    .logos-container {
+      display: inline-block;
+      margin-left: 0;
+    }
+  }
+  
+  /* aquí finaliza footer */

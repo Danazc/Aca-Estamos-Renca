@@ -1,0 +1,10 @@
+/*Responsive formulario*/
+@media (min-width: 280px) and (max-width: 999px) {
+    #Editarperfil {
+        width: 90%;
+    }
+
+    #Editarperfil .form-Perfil {
+        width: 95% !important;
+    }
+}

@@ -1,0 +1,104 @@
+/* PRIMERA PARTE DE LA NAV */
+#hire:hover {
+    transform: scale(1.04);
+  }
+  
+  .ml-4 {
+    /*hashtags*/
+    margin-left: 5%;
+    font-size: 100%;
+    font-family: "Poppins-Italic";
+    color: white;
+    margin-right: 5%;
+  }
+  
+  .buttonInicio {
+    font-family: "Poppins-Regular";
+  }
+  .fa-solid, .fas {
+    color: white;
+    font-weight: 900;
+  }
+  /* SEGUNDA PARTE DE LA NAV */
+header {
+    overflow: hidden;
+  }
+  
+  .dropdown-menu {
+    max-height: 200px;
+    /* Ajusta el valor según sea necesario */
+    overflow-y: auto;
+    max-height: 200px;
+    /* Ajusta el valor según sea necesario */
+    overflow-y: auto;
+  }
+  
+  
+  .userButton {
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.792), 0 0 0 1px rgba(253, 252, 252, 0.089) inset;
+    color: white !important;
+  }
+  
+  
+  .userName {
+    color: white;
+  }
+
+  .dropdown-menu {
+    position: fixed;
+  
+  }
+
+  .navbar-collapse {
+    position: relative;
+  }
+  
+  
+  @media(min-width: 280px) and (max-width: 460px) {
+    .userButton {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  
+  
+    .userName {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+  
+  
+  @media(min-width: 767px) and (max-width:812px) {
+    .userButton {
+      text-align: center;
+    }
+  
+    .userN {
+      width: 83%;
+      margin-top: 0%;
+      margin-left: 0%;
+      text-align: center;
+    }
+  
+    .userName {
+      font-size: 13px;
+      /* margin-top: 10px; */
+    }
+  
+    .userButton {
+      text-align: center;
+    }
+  
+    .userN {
+      width: 83%;
+      margin-top: 0%;
+      margin-left: 0%;
+      text-align: center;
+    }
+  
+    .userName {
+      font-size: 12px;
+      /* margin-top: 10px; */
+    }
+  
+  }

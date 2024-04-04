@@ -1,0 +1,145 @@
+/*Perfil usuario*/
+
+.row-perfil {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap
+  }
+  
+  .col-perfil2 {
+    width: 50%;
+  }
+  
+  .col-perfil1,
+  .col-perfil3 {
+    width: 25%;
+  }
+  
+  .mi-perfil {
+    margin: 40px;
+    font-family: 'Heavitas';
+  }
+  
+  .perfilusuario {
+    margin: 40px;
+    padding: 0%;
+    justify-content: center;
+  }
+  
+  #user-perfil {
+    width: 300px;
+  }
+  
+  .Nombre-perfil {
+    margin-top: 41px;
+  }
+  
+  .Elementos-perfil {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Elementos-perfil li {
+    margin-bottom: 10px;
+  }
+  
+  .actualizar-datos {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .actualizar-datos a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #pen-edit {
+    width: 15px;
+  }
+  
+  .elementos-adjuntos {
+    font-family: 'Poppins-Regular';
+  }
+
+  
+  .certificadoslist {
+    list-style-type: none;
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .certificadoslist li a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .colcv {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .colcv p {
+    font-weight: bold;
+    margin-right: 5px;
+  
+  }
+  
+  .colcv a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .colcv img {
+    margin-right: 10px;
+  }
+  
+  #mostrar-perfil {
+    width: 16px;
+  }
+  
+  @media (min-width: 460px) and (max-width: 1130px) {
+    .certificadoslist {
+      text-align: start;
+    }
+  }
+  
+  @media (min-width: 280px) and (max-width: 1131px) {
+    .perfilusuario {
+      text-align: center;
+    }
+  
+    .Elementos-perfil {
+      text-align: start;
+      padding-left: 10px;
+    }
+  
+    .actualizar-datos {
+      text-align: center;
+    }
+  
+    .col-perfil1,
+    .col-perfil2,
+    .col-perfil3 {
+      width: 100%;
+    }
+  
+    #user-perfil {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .Nombre-perfil {
+      margin-top: 0px;
+    }
+  
+  }

@@ -1,0 +1,112 @@
+:root {
+  --loader-width: 250px;
+  --loader-dot-size: 20px;
+}
+
+.containerLoa {
+  height: 100vh;
+  width: 100vw;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  height: var(--loader-dot-size);
+  width: var(--loader-width);
+  position: relative;
+}
+
+.loader-dot {
+  height: var(--loader-dot-size);
+  width: var(--loader-dot-size);
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  border: 2px solid white;
+  animation: loader 3s ease-in-out infinite;
+}
+
+.loader-dot:nth-child(1) {
+  background-color: #83A637;
+  animation-delay: 0.5s;
+}
+
+.loader-dot:nth-child(2) {
+  background-color: #049DD9;
+  animation-delay: 0.4s;
+}
+
+.loader-dot:nth-child(3) {
+  background-color: #03A688;
+  animation-delay: 0.3s;
+}
+
+.loader-dot:nth-child(4) {
+  background-color: #D95525;
+  animation-delay: 0.2s;
+}
+
+.loader-dot:nth-child(5) {
+  background-color: #60beeb;
+  animation-delay: 0.1s;
+}
+
+.loader-dot:nth-child(6) {
+  background-color: #D97D0D;
+  animation-delay: 0s;
+}
+
+.loader-text {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  right: 0;
+  width: 4rem;
+  margin: auto;
+}
+
+.loader-text:after {
+  content: "Cargando Página";
+  font-family: "Poppins-Bold";
+  src: url("Fuentes/Poppins-Bold.ttf");
+  font-weight: bold;
+  animation: loading-text 3s infinite;
+}
+
+@keyframes loader {
+  15% {
+    transform: translateX(0);
+  }
+
+  45% {
+    transform: translateX(calc(var(--loader-width) - var(--loader-dot-size)));
+  }
+
+  65% {
+    transform: translateX(calc(var(--loader-width) - var(--loader-dot-size)));
+  }
+
+  95% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes loading-text {
+  0% {
+    content: "Cargando";
+  }
+
+  25% {
+    content: "Cargando.";
+  }
+
+  50% {
+    content: "Cargando..";
+  }
+
+  75% {
+    content: "Cargando...";
+  }
+}

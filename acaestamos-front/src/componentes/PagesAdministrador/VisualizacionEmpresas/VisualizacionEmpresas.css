@@ -1,0 +1,77 @@
+/* buscador */
+.buscador{
+    margin: 30px;
+}
+
+/* responsive filtro */
+.filtroAdmin{
+    margin: 30px;
+}
+.filtros {
+    margin: 30px;
+  
+  }
+  
+  @media (min-width: 280px) and (max-width: 800px) {
+    .filtros-row {
+      flex-direction: column;
+    }
+  
+    .filtros-col {
+      width: 90%;
+      margin-top: 13px;
+    }
+    .adminButton{
+        width: 70%;
+    }
+  }
+
+/* ************contenido principal************ */
+
+.userList{
+    font-family: "Heavitas";
+}
+
+.adminButton{
+    background-color: #049DD9;
+    font-family: "Poppins-Regular";
+    color: white;
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.792), 0 0 0 1px rgba(253, 252, 252, 0.089) inset;
+}
+.buttonCv{
+    background-color: #D95525;
+    font-family: "Poppins-Regular";
+    color: white;
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.792), 0 0 0 1px rgba(253, 252, 252, 0.089) inset;
+}
+.adminButton:hover{
+    background-color:#049dd9dc;
+    color: white;
+}
+.buttonCv:hover{
+    background-color: #d95525e0;
+    color: white;
+}
+
+.tabla{
+    font-family: "Poppins-ExtraBoldItalic";
+}
+.userName{
+    font-family: "Poppins-Regular";
+}
+.botonActividad{
+    color:white;
+    font-family: "Poppins-Regular";
+}
+
+@media (min-width: 280px) and (max-width: 800px) {
+    .containerAdmin{
+        text-align: center;
+    }
+    .adminButton{
+        margin-top: 10px;
+        width: 60%;
+    }
+    
+
+}

@@ -1,0 +1,10 @@
+/*Responsive formulario*/
+@media (min-width: 280px) and (max-width: 999px) {
+    #Educacion{
+      width: 90%;
+    }
+  
+    #Educacion .form-Educacion {
+      width: 95% !important;
+    }
+  }

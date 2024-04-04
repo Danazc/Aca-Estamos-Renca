@@ -1,0 +1,17 @@
+/*Responsive formulario*/
+@media (min-width: 280px) and (max-width: 999px) {
+
+    #Datos-personales {
+        width: 90%;
+    }
+
+    .form-Datospersonales .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-Datospersonales .col {
+        width: 100%;
+        margin-right: 0;
+    }
+}

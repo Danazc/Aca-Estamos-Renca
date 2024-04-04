@@ -1,0 +1,113 @@
+/*Cambiar los nombres de las clases? */
+.tituloUsuarioSolicitud{
+    /* margin-top: 50 px; */
+    padding: 40px;
+}
+.solicitudesusuarios {
+    margin: 40px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .soliciu-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .soliciu-col1 {
+    width: 30%;
+  }
+
+  .soliciu-col2 {
+    width: 40%;
+    font-weight: bold;
+  }
+
+  .soliciu-col2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .soliciu-col3 {
+    width: 30%;
+    
+  } 
+
+  .soliciu-col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Usuario {
+    font-family: 'Heavitas';
+    margin-top: 43px;
+  }
+
+  #btn-Aprobar {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Poppins-Regular';
+    padding: 15px 40px;
+    background-color: #03A688;
+    margin-bottom: 20px;
+    border-color: #03A688;
+  }
+
+  #btn-Denegar {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Poppins-Regular';
+    padding: 15px 40px;
+    background-color: #D95525;
+    border-color: #D95525;
+  }
+
+  #btn-Aprobar:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(0, 84, 107, 0.8);
+    transition: all 0.2s ease;
+  }
+
+  #btn-Denegar:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(217, 85, 37, 0.8);
+    transition: all 0.2s ease;
+  }
+
+  @media (min-width: 280px) and (max-width: 700px) {
+    .soliciu-row {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .Usuario {
+      font-family: 'Heavitas';
+      margin-top: 10px;
+    }
+
+    .soliciu-col1,
+    .soliciu-col2,
+    .soliciu-col3 {
+      width: 100%;
+    }
+
+    .bigbox {
+      /* display: flex; */
+      height: auto !important;
+    }
+    #btn-Aprobar {
+      padding: 6px 60px;
+    }
+
+    #btn-Denegar {
+      padding: 6px 60px;
+    }
+    #user-perfil {
+      height: 200px;
+      width: 200px;
+    }
+  }

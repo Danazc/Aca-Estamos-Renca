@@ -1,0 +1,10 @@
+/*Responsive formulario*/
+@media (min-width: 280px) and (max-width: 999px) {
+    #Experiencia {
+        width: 90%;
+    }
+
+    #Experiencia .form-Experiencia {
+        width: 95% !important;
+    }
+}

@@ -1,0 +1,58 @@
+/* ************** Fuentes ************** */
+@font-face {
+  font-family: "Heavitas";
+  src: url("/Fuentes/Heavitas.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("/Fuentes/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBoldItalic";
+  src: url("/Fuentes/Poppins-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url("/Fuentes/Poppins-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-MediumItalic";
+  src: url("/Fuentes/Poppins-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("/Fuentes/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("/Fuentes/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  
+}
+
+/* body {
+  overflow-x: hidden;
+} */

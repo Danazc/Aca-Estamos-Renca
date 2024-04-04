@@ -1,0 +1,150 @@
+.ContainerEmp {
+    /*esto es main*/
+    width: 70%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 30%;
+}
+
+.EmpContent {
+    display: flex;
+    flex-direction: row;
+    /* padding: 300px; */
+}
+
+.colEmpresa {
+    padding: 3%;
+    text-align: center;
+}
+
+.itemsE {
+    margin-top: 16px;
+    font-family: 'Poppins-Bold';
+    font-size: 26px;
+}
+
+
+.containerItemsE {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.nameEmpresa {
+    margin-bottom: 20px;
+}
+
+.contactEmp {
+    text-align: left;
+}
+
+.infoEmpresa {
+    margin-top: 10px;
+    font-family: "Poppins-Regular";
+    text-align: center;
+}
+
+.imagen{
+    text-align: center;
+    width: 70%;
+    margin-top: 40px;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+    .itemsE {
+        margin-left: 11px;
+        font-size: 15px;
+    }
+
+    .ContainerEmp {
+        width: 95%;
+    }
+
+    .firstColE {
+        width: 95%;
+    }
+
+    .secondColE {
+        width: 95%;
+        padding-top: 20px;
+        padding: 0%;
+    }
+
+    .nameE {
+        font-size: 18px;
+    }
+
+    .infoEmpresa {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .colEmpresa {
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    .contactEmp {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 766px) {
+    .itemsE {
+        margin-left: 11px;
+        font-size: 20px;
+    }
+
+    .ContainerEmp {
+        width: 85%;
+    }
+
+    .firstColE {
+        width: 95%;
+    }
+
+    .secondColE {
+        width: 95%;
+        padding-top: 20px;
+        padding: 0%;
+    }
+
+    .nameE {
+        font-size: 18px;
+    }
+
+    .infoEmpresa {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .colEmpresa {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+    .ContainerEmp {
+        width: 95%;
+    }
+
+    .itemsE {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+    .ContainerEmp {
+        width: 85%;
+    }
+
+    .itemsE {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1900px) {
+    .itemsE {
+        font-size: 20px;
+    }
+}

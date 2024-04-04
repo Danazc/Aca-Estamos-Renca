@@ -1,0 +1,12 @@
+/*Responsive formulario*/
+
+@media (min-width: 280px) and (max-width: 999px) {
+    .rowCR {
+        width: 90%;
+    }
+
+}
+
+.from-ingreso {
+    max-width: 100%;
+}
